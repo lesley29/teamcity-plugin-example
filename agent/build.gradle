@@ -1,0 +1,10 @@
+plugins {
+    id "io.github.rodm.teamcity-agent" version "1.5"
+//    id "com.github.rodm.teamcity-agent" version "1.4.1" // works just fine
+    id 'plugin-conventions'
+}
+
+teamcity {
+    version = "2022.12-SNAPSHOT"
+    allowSnapshotVersions = true
+}
