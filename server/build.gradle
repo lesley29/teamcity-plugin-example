@@ -1,10 +1,9 @@
 plugins {
     id "io.github.rodm.teamcity-server" version "1.5"
-//    id "com.github.rodm.teamcity-server" version "1.4.1" // works just fine
     id 'plugin-conventions'
 }
 
 teamcity {
-    version = "2022.12-SNAPSHOT"
+    version = "2023.11"
     allowSnapshotVersions = true
 }
